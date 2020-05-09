@@ -1,0 +1,1001 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+                              bin/am_util_stdio.o (__aeabi_d2f)
+/Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+                              bin/main.o (am_bsp_low_power_init)
+/Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+                              /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o) (g_AM_BSP_GPIO_ITM_SWO)
+/Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+                              bin/main.o (am_hal_cachectrl_config)
+/Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+                              bin/main.o (am_hal_clkgen_control)
+/Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+                              bin/am_util_delay.o (am_hal_flash_delay)
+/Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+                              bin/main.o (am_hal_gpio_pinconfig)
+/Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_interrupt.o)
+                              /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o) (am_hal_interrupt_master_disable)
+/Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_itm.o)
+                              /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o) (am_hal_itm_enable)
+/Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_mcuctrl.o)
+                              bin/am_util_faultisr.o (am_hal_mcuctrl_info_get)
+/Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+                              /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o) (am_hal_pwrctrl_low_power_init)
+/Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+                              /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o) (gAmHalResetStatus)
+/Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_rtc.o)
+                              /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o) (am_hal_rtc_osc_select)
+/Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_tpiu.o)
+                              /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o) (am_hal_tpiu_enable)
+/Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+                              /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o) (am_hal_uart_initialize)
+/Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_queue.o)
+                              /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o) (am_hal_queue_init)
+
+Allocating common symbols
+Common symbol       size              file
+
+am_bsp_uart_pwrsave
+                    0x18              /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+g_pfnCharPrint      0x4               bin/am_util_stdio.o
+g_am_hal_uart_states
+                    0xc8              /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 bin/main.o
+ .data          0x0000000000000000        0x0 bin/main.o
+ .bss           0x0000000000000000        0x0 bin/main.o
+ .text          0x0000000000000000        0x0 bin/am_devices_led.o
+ .data          0x0000000000000000        0x0 bin/am_devices_led.o
+ .bss           0x0000000000000000        0x0 bin/am_devices_led.o
+ .text.am_devices_led_init
+                0x0000000000000000       0x40 bin/am_devices_led.o
+ .text.am_devices_led_array_disable
+                0x0000000000000000       0x30 bin/am_devices_led.o
+ .text.am_devices_led_array_init
+                0x0000000000000000       0x54 bin/am_devices_led.o
+ .text.am_devices_led_toggle
+                0x0000000000000000       0x50 bin/am_devices_led.o
+ .text.am_devices_led_get
+                0x0000000000000000       0x48 bin/am_devices_led.o
+ .text.am_devices_led_array_out
+                0x0000000000000000       0xc4 bin/am_devices_led.o
+ .text          0x0000000000000000        0x0 bin/am_util_delay.o
+ .data          0x0000000000000000        0x0 bin/am_util_delay.o
+ .bss           0x0000000000000000        0x0 bin/am_util_delay.o
+ .text.am_util_delay_cycles
+                0x0000000000000000        0x4 bin/am_util_delay.o
+ .text.am_util_delay_us
+                0x0000000000000000       0x28 bin/am_util_delay.o
+ .text          0x0000000000000000        0x0 bin/am_util_faultisr.o
+ .data          0x0000000000000000        0x0 bin/am_util_faultisr.o
+ .bss           0x0000000000000000        0x0 bin/am_util_faultisr.o
+ .text          0x0000000000000000        0x0 bin/am_util_stdio.o
+ .data          0x0000000000000000        0x0 bin/am_util_stdio.o
+ .bss           0x0000000000000000        0x0 bin/am_util_stdio.o
+ .text.divu64_10
+                0x0000000000000000       0xc0 bin/am_util_stdio.o
+ .text.uint64_to_str
+                0x0000000000000000      0x130 bin/am_util_stdio.o
+ .text.am_util_stdio_strtoul
+                0x0000000000000000       0x9c bin/am_util_stdio.o
+ .text.am_util_stdio_textmode_set
+                0x0000000000000000       0x10 bin/am_util_stdio.o
+ .text.am_util_stdio_vsprintf
+                0x0000000000000000      0x894 bin/am_util_stdio.o
+ .text.am_util_stdio_sprintf
+                0x0000000000000000       0x1c bin/am_util_stdio.o
+ .text.am_util_stdio_printf
+                0x0000000000000000       0x34 bin/am_util_stdio.o
+ .rodata.am_util_stdio_terminal_clear.str1.4
+                0x0000000000000000       0x13 bin/am_util_stdio.o
+ .text.am_util_stdio_terminal_clear
+                0x0000000000000000        0xc bin/am_util_stdio.o
+ .bss.g_bTxtXlate
+                0x0000000000000000        0x1 bin/am_util_stdio.o
+ .bss.g_prfbuf  0x0000000000000000      0x100 bin/am_util_stdio.o
+ .text          0x0000000000000000        0x0 bin/startup_gcc.o
+ .data          0x0000000000000000        0x0 bin/startup_gcc.o
+ .bss           0x0000000000000000        0x0 bin/startup_gcc.o
+ .text.HardFault_Handler
+                0x0000000000000000        0x4 bin/startup_gcc.o
+ .text          0x0000000000000000       0xa0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .data          0x0000000000000000        0x0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x0000000000000000        0x0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x0000000000000000       0x24 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .ARM.attributes
+                0x0000000000000000       0x1e /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .text          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .data          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .bss           0x0000000000000000        0x0 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .text.am_bsp_uart_string_print
+                0x0000000000000000       0x48 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .text.am_bsp_debug_printf_enable
+                0x0000000000000000       0xe8 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .text.am_bsp_debug_printf_disable
+                0x0000000000000000       0x6c /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .text.am_bsp_itm_printf_enable
+                0x0000000000000000       0x40 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .text.am_bsp_itm_printf_disable
+                0x0000000000000000       0x20 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .text.am_bsp_iom_pins_enable
+                0x0000000000000000      0x26c /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .text.am_bsp_iom_pins_disable
+                0x0000000000000000      0x1b4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .text.am_bsp_mspi_pins_enable
+                0x0000000000000000      0x12c /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .text.am_bsp_mspi_pins_disable
+                0x0000000000000000      0x100 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .text.am_bsp_com_uart_transfer
+                0x0000000000000000       0x10 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .text.am_bsp_uart_printf_enable
+                0x0000000000000000       0x5c /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .text.am_bsp_uart_printf_disable
+                0x0000000000000000       0x40 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .text.am_bsp_buffered_uart_printf_enable
+                0x0000000000000000       0x64 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .text.am_bsp_buffered_uart_service
+                0x0000000000000000       0x2c /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .bss.g_sCOMUART
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .bss.g_ui32PrintInterface
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .bss.pui8UartRxBuffer
+                0x0000000000000000      0x400 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .bss.pui8UartTxBuffer
+                0x0000000000000000      0x400 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .data.am_bsp_psButtons
+                0x0000000000000000       0x10 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .data.g_sBspUartBufferedConfig
+                0x0000000000000000       0x28 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .rodata.g_sBspUartConfig
+                0x0000000000000000       0x28 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ COMMON         0x0000000000000000       0x18 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .text          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .data          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .bss           0x0000000000000000        0x0 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_CAM_HREF
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_CAM_PCLK
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_CAM_VSYNC
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_CAM_XCLK
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_CAM_Y0
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_CAM_Y1
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_CAM_Y2
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_CAM_Y3
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_CAM_Y4
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_CAM_Y5
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_CAM_Y6
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_CAM_Y7
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_BUTTON0
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_COM_UART_RX
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_COM_UART_TX
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM0_CS
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM0_CS3
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM0_MISO
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM0_MOSI
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM0_SCK
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM0_SCL
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM0_SDA
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM1_CS
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM1_MISO
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM1_MOSI
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM1_SCK
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM1_SCL
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM1_SDA
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM2_CS
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM2_MISO
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM2_MOSI
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM2_SCK
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM2_SCL
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM2_SDA
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM3_CS
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM3_MISO
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM3_MOSI
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM3_SCK
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM3_SCL
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM3_SDA
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM4_CS
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM4_MISO
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM4_MOSI
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM4_SCK
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM4_SCL
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM4_SDA
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM5_CS
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM5_MISO
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM5_MOSI
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM5_SCK
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM5_SCL
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_IOM5_SDA
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_ITM_SWO
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_LED0
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_LED1
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_LED2
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_LED3
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_MSPI_CE0
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_MSPI_CE1
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_MSPI_D0
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_MSPI_D1
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_MSPI_D2
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_MSPI_D3
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_MSPI_D4
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_MSPI_D5
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_MSPI_D6
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_MSPI_D7
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_MSPI_SCK
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_SWDCK
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_SWDIO
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .rodata.g_AM_BSP_GPIO_UART_RX
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .comment       0x0000000000000000       0x76 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .ARM.attributes
+                0x0000000000000000       0x39 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp_pins.o)
+ .text          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+ .data          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+ .bss           0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+ .text.am_hal_cachectrl_disable
+                0x0000000000000000       0x30 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+ .text.am_hal_cachectrl_status_get
+                0x0000000000000000       0x24 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+ .text          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+ .data          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+ .bss           0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_clkout_enable
+                0x0000000000000000       0x48 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_interrupt_enable
+                0x0000000000000000       0x1c /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_interrupt_disable
+                0x0000000000000000       0x20 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_interrupt_clear
+                0x0000000000000000       0x18 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_interrupt_status_get
+                0x0000000000000000       0x1c /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_interrupt_set
+                0x0000000000000000       0x18 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+ .text          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .data          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .bss           0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_mass_erase
+                0x0000000000000000        0x8 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_page_erase
+                0x0000000000000000        0x8 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_program_main
+                0x0000000000000000       0x5c /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_clear_bits
+                0x0000000000000000       0x24 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_program_info
+                0x0000000000000000       0x60 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_erase_info
+                0x0000000000000000        0x8 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_erase_main_plus_info
+                0x0000000000000000        0x8 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_erase_main_plus_info_both_instances
+                0x0000000000000000        0x8 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_recovery
+                0x0000000000000000        0x8 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_delay_status_change
+                0x0000000000000000       0x4c /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_customer_info_signature_check
+                0x0000000000000000       0x54 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_info_signature_set
+                0x0000000000000000       0xac /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_info_erase_disable
+                0x0000000000000000       0xc4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_info_erase_disable_check
+                0x0000000000000000       0x64 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_info_program_disable
+                0x0000000000000000       0xd0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_info_program_disable_get
+                0x0000000000000000       0x64 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_wipe_flash_enable
+                0x0000000000000000       0xc4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_wipe_flash_enable_check
+                0x0000000000000000       0x64 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_wipe_sram_enable
+                0x0000000000000000       0xc4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_wipe_sram_enable_check
+                0x0000000000000000       0x64 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_swo_disable
+                0x0000000000000000       0xc4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_swo_disable_check
+                0x0000000000000000       0x64 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_debugger_disable
+                0x0000000000000000       0xc4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_debugger_disable_check
+                0x0000000000000000       0x64 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_copy_protect_set
+                0x0000000000000000      0x118 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_copy_protect_check
+                0x0000000000000000       0x9c /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_write_protect_set
+                0x0000000000000000      0x118 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_write_protect_check
+                0x0000000000000000       0x9c /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .rodata.ui32SramMaxAddr
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .rodata.g_am_hal_flash
+                0x0000000000000000       0x60 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .data          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .bss           0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .text.am_hal_gpio_fast_pinconfig
+                0x0000000000000000      0x3a0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .text.am_hal_gpio_state_read
+                0x0000000000000000       0x64 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .text.am_hal_gpio_interrupt_enable
+                0x0000000000000000       0x48 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .text.am_hal_gpio_interrupt_disable
+                0x0000000000000000       0x4c /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .text.am_hal_gpio_interrupt_clear
+                0x0000000000000000       0x3c /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .text.am_hal_gpio_interrupt_status_get
+                0x0000000000000000       0x5c /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .text.am_hal_gpio_interrupt_register
+                0x0000000000000000       0x20 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .text.am_hal_gpio_interrupt_register_adv
+                0x0000000000000000       0x30 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .text.am_hal_gpio_interrupt_service
+                0x0000000000000000       0xb4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_AM_HAL_GPIO_INPUT_PULLUP_6
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_AM_HAL_GPIO_TRISTATE
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_AM_HAL_GPIO_OUTPUT_8
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_AM_HAL_GPIO_INPUT_PULLUP
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .bss.gpio_pHandlerCtxt
+                0x0000000000000000       0xc8 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_AM_HAL_GPIO_INPUT_PULLUP_1_5
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_AM_HAL_GPIO_INPUT_PULLUP_24
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_AM_HAL_GPIO_OUTPUT_WITH_READ
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_AM_HAL_GPIO_OUTPUT_4
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .bss.gpio_ppfnHandlers
+                0x0000000000000000       0xc8 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_AM_HAL_GPIO_INPUT_PULLUP_12
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_AM_HAL_GPIO_INPUT
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_AM_HAL_GPIO_OUTPUT_12
+                0x0000000000000000        0x4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .text          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_interrupt.o)
+ .data          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_interrupt.o)
+ .bss           0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_interrupt.o)
+ .text.am_hal_interrupt_master_enable
+                0x0000000000000000        0x8 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_interrupt.o)
+ .text          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_itm.o)
+ .data          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_itm.o)
+ .bss           0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_itm.o)
+ .text.am_hal_itm_enable
+                0x0000000000000000       0x3c /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_itm.o)
+ .text.am_hal_itm_not_busy
+                0x0000000000000000       0x14 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_itm.o)
+ .text.am_hal_itm_trace_port_enable
+                0x0000000000000000       0x18 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_itm.o)
+ .text.am_hal_itm_trace_port_disable
+                0x0000000000000000       0x1c /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_itm.o)
+ .text.am_hal_itm_stimulus_not_busy
+                0x0000000000000000       0x10 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_itm.o)
+ .text.am_hal_itm_stimulus_reg_word_write
+                0x0000000000000000       0x10 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_itm.o)
+ .text.am_hal_itm_stimulus_reg_short_write
+                0x0000000000000000       0x10 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_itm.o)
+ .text.am_hal_itm_stimulus_reg_byte_write
+                0x0000000000000000       0x10 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_itm.o)
+ .text.am_hal_itm_sync_send
+                0x0000000000000000       0x18 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_itm.o)
+ .text.am_hal_itm_print_not_busy
+                0x0000000000000000       0x10 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_itm.o)
+ .text.am_hal_itm_print
+                0x0000000000000000       0x30 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_itm.o)
+ .text          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_mcuctrl.o)
+ .data          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_mcuctrl.o)
+ .bss           0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_mcuctrl.o)
+ .text.am_hal_mcuctrl_control
+                0x0000000000000000      0x1d0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_mcuctrl.o)
+ .text.am_hal_mcuctrl_status_get
+                0x0000000000000000       0x48 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_mcuctrl.o)
+ .text          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .data          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .bss           0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .text.am_hal_pwrctrl_periph_enable
+                0x0000000000000000       0x54 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .text.am_hal_pwrctrl_periph_disable
+                0x0000000000000000       0x58 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .text.am_hal_pwrctrl_periph_enabled
+                0x0000000000000000       0x58 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .text.am_hal_pwrctrl_memory_enable
+                0x0000000000000000       0x90 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .text.am_hal_pwrctrl_memory_deepsleep_powerdown
+                0x0000000000000000       0x28 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .text.am_hal_pwrctrl_memory_deepsleep_retain
+                0x0000000000000000       0x2c /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .text.am_hal_pwrctrl_blebuck_trim
+                0x0000000000000000       0x4c /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .rodata.am_hal_pwrctrl_peripheral_control
+                0x0000000000000000       0xb4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .rodata.am_hal_pwrctrl_memory_control
+                0x0000000000000000      0x1b0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .text          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .data          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .bss           0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .text.am_hal_reset_configure
+                0x0000000000000000       0x54 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .text.am_hal_reset_control
+                0x0000000000000000       0x40 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .text.am_hal_reset_status_get
+                0x0000000000000000       0x70 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .text.am_hal_reset_interrupt_enable
+                0x0000000000000000       0x28 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .text.am_hal_reset_interrupt_disable
+                0x0000000000000000       0x28 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .text.am_hal_reset_interrupt_clear
+                0x0000000000000000        0xc /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .text.am_hal_reset_interrupt_status_get
+                0x0000000000000000       0x14 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .text          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_rtc.o)
+ .data          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_rtc.o)
+ .bss           0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_rtc.o)
+ .text.am_hal_rtc_osc_enable
+                0x0000000000000000       0x14 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_rtc.o)
+ .text.am_hal_rtc_time_12hour
+                0x0000000000000000       0x14 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_rtc.o)
+ .text.am_hal_rtc_int_enable
+                0x0000000000000000       0x14 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_rtc.o)
+ .text.am_hal_rtc_int_enable_get
+                0x0000000000000000        0xc /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_rtc.o)
+ .text.am_hal_rtc_int_disable
+                0x0000000000000000       0x14 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_rtc.o)
+ .text.am_hal_rtc_int_set
+                0x0000000000000000        0xc /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_rtc.o)
+ .text.am_hal_rtc_int_clear
+                0x0000000000000000        0xc /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_rtc.o)
+ .text.am_hal_rtc_int_status_get
+                0x0000000000000000       0x24 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_rtc.o)
+ .text.am_hal_rtc_time_set
+                0x0000000000000000      0x114 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_rtc.o)
+ .text.am_hal_rtc_time_get
+                0x0000000000000000       0xc8 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_rtc.o)
+ .text.am_hal_rtc_alarm_interval_set
+                0x0000000000000000       0x40 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_rtc.o)
+ .text.am_hal_rtc_alarm_set
+                0x0000000000000000       0xfc /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_rtc.o)
+ .text.am_hal_rtc_alarm_get
+                0x0000000000000000       0x9c /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_rtc.o)
+ .text          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_tpiu.o)
+ .data          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_tpiu.o)
+ .bss           0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_tpiu.o)
+ .text.am_hal_tpiu_clock_enable
+                0x0000000000000000       0x14 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_tpiu.o)
+ .text.am_hal_tpiu_clock_disable
+                0x0000000000000000       0x14 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_tpiu.o)
+ .text.am_hal_tpiu_port_width_set
+                0x0000000000000000       0x14 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_tpiu.o)
+ .text.am_hal_tpiu_supported_port_width_get
+                0x0000000000000000       0x24 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_tpiu.o)
+ .text.am_hal_tpiu_port_width_get
+                0x0000000000000000       0x24 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_tpiu.o)
+ .text.am_hal_tpiu_configure
+                0x0000000000000000       0x38 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_tpiu.o)
+ .text.am_hal_tpiu_enable
+                0x0000000000000000       0xa0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_tpiu.o)
+ .text.am_hal_tpiu_disable
+                0x0000000000000000       0x10 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_tpiu.o)
+ .comment       0x0000000000000000       0x6f /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_tpiu.o)
+ .ARM.attributes
+                0x0000000000000000       0x39 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_tpiu.o)
+ .text          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .data          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .bss           0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text.am_hal_uart_initialize
+                0x0000000000000000       0x50 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text.am_hal_uart_deinitialize
+                0x0000000000000000       0x28 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text.am_hal_uart_power_control
+                0x0000000000000000       0xe4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text.am_hal_uart_configure
+                0x0000000000000000      0x248 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text.am_hal_uart_transfer
+                0x0000000000000000      0x474 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text.am_hal_uart_tx_flush
+                0x0000000000000000       0x50 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text.am_hal_uart_flags_get
+                0x0000000000000000       0x2c /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text.am_hal_uart_fifo_read
+                0x0000000000000000       0x7c /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text.am_hal_uart_fifo_write
+                0x0000000000000000       0x60 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text.am_hal_uart_interrupt_service
+                0x0000000000000000      0x11c /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text.am_hal_uart_interrupt_enable
+                0x0000000000000000       0x28 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text.am_hal_uart_interrupt_disable
+                0x0000000000000000       0x2c /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text.am_hal_uart_interrupt_clear
+                0x0000000000000000       0x24 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text.am_hal_uart_interrupt_status_get
+                0x0000000000000000       0x38 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text.am_hal_uart_interrupt_enable_get
+                0x0000000000000000       0x28 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .comment       0x0000000000000000       0x6f /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .ARM.attributes
+                0x0000000000000000       0x39 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ COMMON         0x0000000000000000       0xc8 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_queue.o)
+ .data          0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_queue.o)
+ .bss           0x0000000000000000        0x0 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_queue.o)
+ .text.am_hal_queue_init
+                0x0000000000000000       0x18 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_queue.o)
+ .text.am_hal_queue_item_add
+                0x0000000000000000       0x70 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_queue.o)
+ .text.am_hal_queue_item_get
+                0x0000000000000000       0x70 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_queue.o)
+ .comment       0x0000000000000000       0x6f /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_queue.o)
+ .ARM.attributes
+                0x0000000000000000       0x39 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_queue.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x000000000000c000 0x00000000000f0000 xr
+SRAM             0x0000000010000000 0x0000000000060000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.text           0x000000000000c000     0x1184
+                0x000000000000c000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x000000000000c000       0xd0 bin/startup_gcc.o
+                0x000000000000c000                g_am_pfnVectors
+ *(.patch)
+ .patch         0x000000000000c0d0       0x30 bin/startup_gcc.o
+                0x000000000000c0d0                __Patchable
+ *(.text)
+ *(.text*)
+ .text.startup.main
+                0x000000000000c100       0x88 bin/main.o
+                0x000000000000c100                main
+ .text.am_devices_led_on
+                0x000000000000c188       0x2c bin/am_devices_led.o
+                0x000000000000c188                am_devices_led_on
+ .text.am_devices_led_off
+                0x000000000000c1b4       0x30 bin/am_devices_led.o
+                0x000000000000c1b4                am_devices_led_off
+ .text.am_util_delay_ms
+                0x000000000000c1e4       0x28 bin/am_util_delay.o
+                0x000000000000c1e4                am_util_delay_ms
+ .text.HardFault_Handler
+                0x000000000000c20c       0x1c bin/am_util_faultisr.o
+                0x000000000000c20c                HardFault_Handler
+ .text.getStackedReg
+                0x000000000000c228        0x8 bin/am_util_faultisr.o
+                0x000000000000c228                getStackedReg
+ .text.am_util_faultisr_collect_data
+                0x000000000000c230       0xc4 bin/am_util_faultisr.o
+                0x000000000000c230                am_util_faultisr_collect_data
+ .text.am_util_stdio_printf_init
+                0x000000000000c2f4        0xc bin/am_util_stdio.o
+                0x000000000000c2f4                am_util_stdio_printf_init
+ .text.NMI_Handler
+                0x000000000000c300        0x4 bin/startup_gcc.o
+                0x000000000000c300                NMI_Handler
+ .text.am_default_isr
+                0x000000000000c304        0x4 bin/startup_gcc.o
+                0x000000000000c304                am_default_isr
+                0x000000000000c304                am_iomaster4_isr
+                0x000000000000c304                SysTick_Handler
+                0x000000000000c304                PendSV_Handler
+                0x000000000000c304                am_rtc_isr
+                0x000000000000c304                am_stimer_cmpr3_isr
+                0x000000000000c304                am_adc_isr
+                0x000000000000c304                am_iomaster3_isr
+                0x000000000000c304                am_clkgen_isr
+                0x000000000000c304                am_stimer_isr
+                0x000000000000c304                am_software0_isr
+                0x000000000000c304                am_stimer_cmpr5_isr
+                0x000000000000c304                am_iomaster5_isr
+                0x000000000000c304                am_uart_isr
+                0x000000000000c304                am_ctimer_isr
+                0x000000000000c304                am_mspi_isr
+                0x000000000000c304                am_ioslave_acc_isr
+                0x000000000000c304                am_software1_isr
+                0x000000000000c304                am_pdm_isr
+                0x000000000000c304                am_stimer_cmpr6_isr
+                0x000000000000c304                am_iomaster1_isr
+                0x000000000000c304                am_brownout_isr
+                0x000000000000c304                am_vcomp_isr
+                0x000000000000c304                am_stimer_cmpr1_isr
+                0x000000000000c304                am_gpio_isr
+                0x000000000000c304                am_iomaster2_isr
+                0x000000000000c304                SVC_Handler
+                0x000000000000c304                am_stimer_cmpr2_isr
+                0x000000000000c304                am_ioslave_ios_isr
+                0x000000000000c304                am_uart1_isr
+                0x000000000000c304                am_stimer_cmpr7_isr
+                0x000000000000c304                am_scard_isr
+                0x000000000000c304                am_watchdog_isr
+                0x000000000000c304                am_stimer_cmpr0_isr
+                0x000000000000c304                am_software3_isr
+                0x000000000000c304                am_iomaster0_isr
+                0x000000000000c304                am_ble_isr
+                0x000000000000c304                am_software2_isr
+                0x000000000000c304                am_stimer_cmpr4_isr
+                0x000000000000c304                DebugMon_Handler
+ .text.Reset_Handler
+                0x000000000000c308       0x68 bin/startup_gcc.o
+                0x000000000000c308                Reset_Handler
+ .text.am_bsp_low_power_init
+                0x000000000000c370       0x64 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+                0x000000000000c370                am_bsp_low_power_init
+ .text.am_hal_cachectrl_config
+                0x000000000000c3d4       0x4c /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+                0x000000000000c3d4                am_hal_cachectrl_config
+ .text.am_hal_cachectrl_enable
+                0x000000000000c420       0x14 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+                0x000000000000c420                am_hal_cachectrl_enable
+ .text.am_hal_cachectrl_control
+                0x000000000000c434      0x2e4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+                0x000000000000c434                am_hal_cachectrl_control
+ .text.am_hal_clkgen_control
+                0x000000000000c718      0x11c /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+                0x000000000000c718                am_hal_clkgen_control
+ .text.am_hal_clkgen_status_get
+                0x000000000000c834       0x3c /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+                0x000000000000c834                am_hal_clkgen_status_get
+ .text.am_hal_flash_delay
+                0x000000000000c870       0x20 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+                0x000000000000c870                am_hal_flash_delay
+ .text.am_hal_flash_delay_status_check
+                0x000000000000c890       0x74 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+                0x000000000000c890                am_hal_flash_delay_status_check
+ .text.am_hal_flash_load_ui32
+                0x000000000000c904        0x8 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+                0x000000000000c904                am_hal_flash_load_ui32
+ .text.am_hal_flash_store_ui32
+                0x000000000000c90c        0xc /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+                0x000000000000c90c                am_hal_flash_store_ui32
+ .text.am_hal_gpio_pinconfig
+                0x000000000000c918      0x278 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+                0x000000000000c918                am_hal_gpio_pinconfig
+ .text.am_hal_gpio_state_write
+                0x000000000000cb90       0x88 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+                0x000000000000cb90                am_hal_gpio_state_write
+ .text.am_hal_interrupt_master_disable
+                0x000000000000cc18        0x8 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_interrupt.o)
+                0x000000000000cc18                am_hal_interrupt_master_disable
+ .text.am_hal_interrupt_master_set
+                0x000000000000cc20        0x8 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_interrupt.o)
+                0x000000000000cc20                am_hal_interrupt_master_set
+ .text.am_hal_itm_disable
+                0x000000000000cc28       0xac /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_itm.o)
+                0x000000000000cc28                am_hal_itm_disable
+ .text.am_hal_mcuctrl_info_get
+                0x000000000000ccd4      0x12c /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_mcuctrl.o)
+                0x000000000000ccd4                am_hal_mcuctrl_info_get
+ .text.am_hal_pwrctrl_low_power_init
+                0x000000000000ce00      0x170 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+                0x000000000000ce00                am_hal_pwrctrl_low_power_init
+ .text.am_hal_rtc_osc_select
+                0x000000000000cf70       0x10 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_rtc.o)
+                0x000000000000cf70                am_hal_rtc_osc_select
+ .text.am_hal_rtc_osc_disable
+                0x000000000000cf80       0x14 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_rtc.o)
+                0x000000000000cf80                am_hal_rtc_osc_disable
+ *(.rodata)
+ *(.rodata*)
+ .rodata.am_hal_cachectrl_defaults
+                0x000000000000cf94        0x3 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+                0x000000000000cf94                am_hal_cachectrl_defaults
+ *fill*         0x000000000000cf97        0x1 
+ .rodata.g_ui8Bit76Capabilities
+                0x000000000000cf98       0x32 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ *fill*         0x000000000000cfca        0x2 
+ .rodata.g_ui8NCEtable
+                0x000000000000cfcc       0xc8 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_ui8Inpen
+                0x000000000000d094       0x32 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ *fill*         0x000000000000d0c6        0x2 
+ .rodata.g_AM_HAL_GPIO_DISABLE
+                0x000000000000d0c8        0x4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+                0x000000000000d0c8                g_AM_HAL_GPIO_DISABLE
+ .rodata.g_AM_HAL_GPIO_OUTPUT
+                0x000000000000d0cc        0x4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+                0x000000000000d0cc                g_AM_HAL_GPIO_OUTPUT
+ .rodata.g_ui8nCEpins
+                0x000000000000d0d0       0x32 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ *fill*         0x000000000000d102        0x2 
+ .rodata.g_am_hal_mcuctrl_flash_size
+                0x000000000000d104       0x40 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_mcuctrl.o)
+                0x000000000000d104                g_am_hal_mcuctrl_flash_size
+ .rodata.g_am_hal_mcuctrl_sram_size
+                0x000000000000d144       0x40 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_mcuctrl.o)
+                0x000000000000d144                g_am_hal_mcuctrl_sram_size
+                0x000000000000d184                . = ALIGN (0x4)
+                0x000000000000d184                _etext = .
+
+.glue_7         0x000000000000d184        0x0
+ .glue_7        0x000000000000d184        0x0 linker stubs
+
+.glue_7t        0x000000000000d184        0x0
+ .glue_7t       0x000000000000d184        0x0 linker stubs
+
+.vfp11_veneer   0x000000000000d184        0x0
+ .vfp11_veneer  0x000000000000d184        0x0 linker stubs
+
+.v4_bx          0x000000000000d184        0x0
+ .v4_bx         0x000000000000d184        0x0 linker stubs
+
+.iplt           0x000000000000d184        0x0
+ .iplt          0x000000000000d184        0x0 bin/main.o
+
+.rel.dyn        0x000000000000d184        0x0
+ .rel.iplt      0x000000000000d184        0x0 bin/main.o
+
+.stack          0x0000000010000000     0x1000
+                0x0000000010000000                . = ALIGN (0x8)
+ *(.stack)
+ .stack         0x0000000010000000     0x1000 bin/startup_gcc.o
+ *(.stack*)
+                0x0000000010001000                . = ALIGN (0x8)
+
+.data           0x0000000010001000       0x2c load address 0x000000000000d184
+                0x0000000010001000                . = ALIGN (0x4)
+                0x0000000010001000                _sdata = .
+ *(.data)
+ *(.data*)
+ .data.am_bsp_psLEDs
+                0x0000000010001000       0x20 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+                0x0000000010001000                am_bsp_psLEDs
+ .data.SRAM_write_ui32
+                0x0000000010001020        0xc /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+                0x0000000010001020                SRAM_write_ui32
+                0x000000001000102c                . = ALIGN (0x4)
+                0x000000001000102c                _edata = .
+                0x000000000000d184                _init_data = LOADADDR (.data)
+
+.igot.plt       0x000000001000102c        0x0 load address 0x000000000000d1b0
+ .igot.plt      0x000000001000102c        0x0 bin/main.o
+
+.bss            0x000000001000102c        0x8 load address 0x000000000000d1b0
+                0x000000001000102c                . = ALIGN (0x4)
+                0x000000001000102c                _sbss = .
+ *(.bss)
+ *(.bss*)
+ .bss.gAmHalResetStatus
+                0x000000001000102c        0x4 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+                0x000000001000102c                gAmHalResetStatus
+ *(COMMON)
+ COMMON         0x0000000010001030        0x4 bin/am_util_stdio.o
+                0x0000000010001030                g_pfnCharPrint
+                0x0000000010001034                . = ALIGN (0x4)
+                0x0000000010001034                _ebss = .
+
+.ARM.attributes
+                0x0000000000000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x34 bin/main.o
+ .ARM.attributes
+                0x0000000000000034       0x34 bin/am_devices_led.o
+ .ARM.attributes
+                0x0000000000000068       0x34 bin/am_util_delay.o
+ .ARM.attributes
+                0x000000000000009c       0x34 bin/am_util_faultisr.o
+ .ARM.attributes
+                0x00000000000000d0       0x34 bin/am_util_stdio.o
+ .ARM.attributes
+                0x0000000000000104       0x34 bin/startup_gcc.o
+ .ARM.attributes
+                0x0000000000000138       0x34 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+ .ARM.attributes
+                0x000000000000016c       0x39 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+ .ARM.attributes
+                0x00000000000001a5       0x39 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+ .ARM.attributes
+                0x00000000000001de       0x39 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .ARM.attributes
+                0x0000000000000217       0x39 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .ARM.attributes
+                0x0000000000000250       0x39 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_interrupt.o)
+ .ARM.attributes
+                0x0000000000000289       0x39 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_itm.o)
+ .ARM.attributes
+                0x00000000000002c2       0x39 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_mcuctrl.o)
+ .ARM.attributes
+                0x00000000000002fb       0x39 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .ARM.attributes
+                0x0000000000000334       0x39 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .ARM.attributes
+                0x000000000000036d       0x39 /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_rtc.o)
+LOAD bin/main.o
+LOAD bin/am_devices_led.o
+LOAD bin/am_util_delay.o
+LOAD bin/am_util_faultisr.o
+LOAD bin/am_util_stdio.o
+LOAD bin/startup_gcc.o
+START GROUP
+LOAD /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
+LOAD /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a
+LOAD /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a
+END GROUP
+START GROUP
+LOAD /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
+END GROUP
+OUTPUT(bin/example1.axf elf32-littlearm)
+
+.debug_info     0x0000000000000000     0x4bf5
+ .debug_info    0x0000000000000000      0xe49 bin/main.o
+ .debug_info    0x0000000000000e49      0xd3c bin/am_devices_led.o
+ .debug_info    0x0000000000001b85      0x959 bin/am_util_delay.o
+ .debug_info    0x00000000000024de      0xaf3 bin/am_util_faultisr.o
+ .debug_info    0x0000000000002fd1     0x10ea bin/am_util_stdio.o
+ .debug_info    0x00000000000040bb      0xb3a bin/startup_gcc.o
+
+.debug_abbrev   0x0000000000000000     0x1051
+ .debug_abbrev  0x0000000000000000      0x233 bin/main.o
+ .debug_abbrev  0x0000000000000233      0x377 bin/am_devices_led.o
+ .debug_abbrev  0x00000000000005aa      0x22d bin/am_util_delay.o
+ .debug_abbrev  0x00000000000007d7      0x268 bin/am_util_faultisr.o
+ .debug_abbrev  0x0000000000000a3f      0x3f5 bin/am_util_stdio.o
+ .debug_abbrev  0x0000000000000e34      0x21d bin/startup_gcc.o
+
+.debug_loc      0x0000000000000000     0x355d
+ .debug_loc     0x0000000000000000      0x13b bin/main.o
+ .debug_loc     0x000000000000013b      0x581 bin/am_devices_led.o
+ .debug_loc     0x00000000000006bc      0x101 bin/am_util_delay.o
+ .debug_loc     0x00000000000007bd       0x61 bin/am_util_faultisr.o
+ .debug_loc     0x000000000000081e     0x2d3f bin/am_util_stdio.o
+
+.debug_aranges  0x0000000000000000      0x170
+ .debug_aranges
+                0x0000000000000000       0x20 bin/main.o
+ .debug_aranges
+                0x0000000000000020       0x58 bin/am_devices_led.o
+ .debug_aranges
+                0x0000000000000078       0x30 bin/am_util_delay.o
+ .debug_aranges
+                0x00000000000000a8       0x30 bin/am_util_faultisr.o
+ .debug_aranges
+                0x00000000000000d8       0x60 bin/am_util_stdio.o
+ .debug_aranges
+                0x0000000000000138       0x38 bin/startup_gcc.o
+
+.debug_ranges   0x0000000000000000      0x4f0
+ .debug_ranges  0x0000000000000000       0x28 bin/main.o
+ .debug_ranges  0x0000000000000028       0xc8 bin/am_devices_led.o
+ .debug_ranges  0x00000000000000f0       0x20 bin/am_util_delay.o
+ .debug_ranges  0x0000000000000110       0x20 bin/am_util_faultisr.o
+ .debug_ranges  0x0000000000000130      0x398 bin/am_util_stdio.o
+ .debug_ranges  0x00000000000004c8       0x28 bin/startup_gcc.o
+
+.debug_line     0x0000000000000000     0x288e
+ .debug_line    0x0000000000000000      0x3fb bin/main.o
+ .debug_line    0x00000000000003fb      0x6c5 bin/am_devices_led.o
+ .debug_line    0x0000000000000ac0      0x2e2 bin/am_util_delay.o
+ .debug_line    0x0000000000000da2      0x4b8 bin/am_util_faultisr.o
+ .debug_line    0x000000000000125a     0x1344 bin/am_util_stdio.o
+ .debug_line    0x000000000000259e      0x2f0 bin/startup_gcc.o
+
+.debug_str      0x0000000000000000     0x2319
+ .debug_str     0x0000000000000000     0x12a8 bin/main.o
+                                       0x12ff (size before relaxing)
+ .debug_str     0x00000000000012a8      0x34d bin/am_devices_led.o
+                                        0xdce (size before relaxing)
+ .debug_str     0x00000000000015f5      0x10c bin/am_util_delay.o
+                                        0xb2f (size before relaxing)
+ .debug_str     0x0000000000001701      0x1df bin/am_util_faultisr.o
+                                        0xbfa (size before relaxing)
+ .debug_str     0x00000000000018e0      0x35f bin/am_util_stdio.o
+                                        0x57a (size before relaxing)
+ .debug_str     0x0000000000001c3f      0x6da bin/startup_gcc.o
+                                       0x1218 (size before relaxing)
+
+.comment        0x0000000000000000      0x15c
+ .comment       0x0000000000000000       0x79 bin/main.o
+                                         0x7a (size before relaxing)
+ .comment       0x0000000000000079       0x7a bin/am_devices_led.o
+ .comment       0x0000000000000079       0x7a bin/am_util_delay.o
+ .comment       0x0000000000000079       0x7a bin/am_util_faultisr.o
+ .comment       0x0000000000000079       0x7a bin/am_util_stdio.o
+ .comment       0x0000000000000079       0x7a bin/startup_gcc.o
+ .comment       0x0000000000000079       0x75 /Users/nams/AmbiqSuite/boards/SparkFun_Edge_BSP/bsp/gcc/bin/libam_bsp.a(am_bsp.o)
+                                         0x76 (size before relaxing)
+ .comment       0x00000000000000ee       0x6e /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+                                         0x6f (size before relaxing)
+ .comment       0x000000000000015c       0x6f /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+ .comment       0x000000000000015c       0x6f /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .comment       0x000000000000015c       0x6f /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .comment       0x000000000000015c       0x6f /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_interrupt.o)
+ .comment       0x000000000000015c       0x6f /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_itm.o)
+ .comment       0x000000000000015c       0x6f /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_mcuctrl.o)
+ .comment       0x000000000000015c       0x6f /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .comment       0x000000000000015c       0x6f /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .comment       0x000000000000015c       0x6f /Users/nams/AmbiqSuite/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_rtc.o)
+
+.debug_frame    0x0000000000000000      0x3b8
+ .debug_frame   0x0000000000000000       0x30 bin/main.o
+ .debug_frame   0x0000000000000030      0x130 bin/am_devices_led.o
+ .debug_frame   0x0000000000000160       0x60 bin/am_util_delay.o
+ .debug_frame   0x00000000000001c0       0x4c bin/am_util_faultisr.o
+ .debug_frame   0x000000000000020c      0x15c bin/am_util_stdio.o
+ .debug_frame   0x0000000000000368       0x50 bin/startup_gcc.o

@@ -1,0 +1,61 @@
+{
+    "env": {
+        "SDKPATH": "/Users/nams/AmbiqSuite"
+    },
+
+    "configurations": [
+        {
+            "name": "ARMGCC",
+            "includePath": [
+				"${workspaceFolder}/**",
+				"${SDKPATH}/utils",
+				"${SDKPATH}/third_party/exactle/ble-host/sources/stack/l2c",
+				"${SDKPATH}/third_party/exactle/ble-profiles/sources/profiles/hid",
+				"${SDKPATH}/third_party/exactle/ble-profiles/sources/profiles/fmpl",
+				"${SDKPATH}/third_party/exactle/ble-host/sources/stack/att",
+				"${SDKPATH}/third_party/exactle/ble-profiles/sources/profiles/uribeacon",
+				"${SDKPATH}/third_party/exactle/ble-profiles/sources/apps",
+				"${SDKPATH}/third_party/exactle/ble-profiles/sources/profiles/gap",
+				"${SDKPATH}/third_party/exactle/ble-host/include",
+				"${SDKPATH}/mcu/apollo3",
+				"${SDKPATH}/third_party/exactle/ble-host/sources/hci/include",
+				"${SDKPATH}/devices",
+				"${SDKPATH}/third_party/exactle/wsf/sources",
+				"${SDKPATH}/third_party/FreeRTOSv10.1.1/Source/portable/GCC/AMapollo2",
+				"${SDKPATH}/third_party/exactle/ble-host/sources/sec/common",
+				"${SDKPATH}/third_party/exactle/ble-profiles/sources/profiles/bas",
+				"${SDKPATH}/third_party/exactle/ble-profiles/sources/apps/app",
+				"${SDKPATH}/third_party/exactle/ble-profiles/sources/profiles/include",
+				"${SDKPATH}",
+				"${SDKPATH}/third_party/exactle/wsf/include",
+				"../src",
+				"${SDKPATH}/CMSIS/ARM/Include",
+				"${SDKPATH}/third_party/exactle/wsf/sources/port/freertos",
+				"${SDKPATH}/third_party/FreeRTOSv10.1.1/Source/include",
+				"${SDKPATH}/third_party/exactle/ble-host/sources/hci/ambiq/apollo3",
+				"${SDKPATH}/third_party/exactle/ble-host/sources/stack/dm",
+				"${SDKPATH}/third_party/exactle/wsf/sources/util",
+				"${SDKPATH}/third_party/exactle/ble-profiles/sources/profiles/wdxs",
+				"${SDKPATH}/third_party/exactle/ble-profiles/sources/profiles/gatt",
+				"${SDKPATH}/third_party/exactle/ble-profiles/include/app",
+				"${SDKPATH}/third_party/uecc",
+				"${SDKPATH}/boards/SparkFun_Edge_BSP/bsp",
+				"${SDKPATH}/CMSIS/AmbiqMicro/Include",
+				"${SDKPATH}/third_party/exactle/ble-profiles/sources/services",
+				"${SDKPATH}/third_party/exactle/ble-profiles/sources/apps/tag",
+				"${SDKPATH}/third_party/exactle/ble-host/sources/stack/smp",
+				"${SDKPATH}/third_party/exactle/ble-profiles/sources/profiles",
+				"${SDKPATH}/third_party/exactle/ble-host/sources/stack/hci",
+				"${SDKPATH}/third_party/exactle/ble-host/sources/stack/cfg",
+				"${SDKPATH}/third_party/exactle/ble-host/sources/hci/ambiq"
+            ],
+            "defines": [
+            ],
+            "compilerPath": "/usr/local/bin/arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}
